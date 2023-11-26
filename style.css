@@ -1,26 +1,83 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
 }
 
 .main {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    height: 80vh;
-    position: relative;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/d1532433-07b1-4e39-a920-0f08b81a489e/67033404-2df8-42e0-a5a0-4c8288b4da2c/IN-en-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
 
 .main .box {
-    opacity: 0.44;
-    position: absolute;
-    top: 0;
-    height: 80vh;
-    width: 100%;
-    background-color: black;
+  opacity: 0.66;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
 }
 
 nav {
-    display: flex;
-    max-width: 80vw;
-    margin:auto;
-    align-items: center;
+  height: 62px;
+  display: flex;
+  max-width: 70vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin-top: 3vh;
+  z-index: 10;
+  position: relative;
+  width: 12vw;
+}
+
+nav button {
+  z-index: 10;
+  position: relative;
+}
+
+.hero {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  color: white;
+  flex-direction: column;
+  position: relative;
+  gap: 23px;
+}
+
+.hero> :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero> :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+}
+.separation{
+  height:100px;
+  color: grey;
 }
