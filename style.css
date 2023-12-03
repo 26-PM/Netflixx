@@ -223,10 +223,10 @@ footer span{
     font-size: 18px;
   }
   nav img{
-    width:20vw;
+    width:26vw;
   }
   nav{
-    max-width: 90vw;
+    max-width: 80vw;
   }
   .heroButtons{
     display:flex;
@@ -249,6 +249,12 @@ footer span{
   }
   section.first>div :nth-child(1) {
     padding: 25px;
+  }
+  .questions{
+    font-size: 10px;
+  }
+  .faqbox{
+    font-size:15px;
   }
 }
 
