@@ -245,13 +245,12 @@ footer span{
     font-size: 32px;
   }
   .secImage video {
-    width: 275px;
-    position: absolute;
-    right: 69px;
-    top: 73px;
+    right: 56px;
+    top: 57px;
+    width: 176px;
 }
   .secImage img {
-  width: 400px;
+  width: 280px;
   position: relative;
   z-index: 10;
   }
