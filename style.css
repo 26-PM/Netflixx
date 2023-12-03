@@ -80,6 +80,9 @@ nav button {
   text-align: center;
   justify-content: center;
 }
+.heroButtons{
+  margin-top: 10vh;
+}
 
 .separator {
   height: 9px;
@@ -222,6 +225,10 @@ footer span{
   .hero> :nth-child(3) {
     font-size: 18px;
   }
+  .main input {
+    padding: 3px 10px;
+    font-size: 15px;
+  }
   nav img{
     width:26vw;
   }
@@ -229,6 +236,7 @@ footer span{
     max-width: 80vw;
   }
   .heroButtons{
+    gap:1vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -256,6 +264,8 @@ footer span{
   .faqbox{
     font-size:15px;
   }
+  .btn-red {
+    font-size: 12px;
 }
 
 
