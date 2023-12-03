@@ -262,9 +262,9 @@ footer span {
   }
 
   .secImage video {
-    right: 56px;
-    top: 57px;
-    width: 176px;
+    right: 66px;
+    top: 67px;
+    width: 185px;
   }
 
   .secImage img {
@@ -288,7 +288,8 @@ footer span {
   .btn-red {
     font-size: 12px;
   }
-  .small{
+
+  .small {
     font-size: 25px;
   }
 }
