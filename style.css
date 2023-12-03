@@ -81,7 +81,7 @@ nav button {
   justify-content: center;
 }
 .heroButtons{
-  margin-top: 10vh;
+  margin-top: 7vh;
 }
 
 .separator {
@@ -148,7 +148,7 @@ nav button {
 }
 
 section.first>div :nth-child(1) {
-  padding: 30px;
+  padding: 10px;
   font-size: 35px;
   font-weight: bolder;
 }
